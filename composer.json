@@ -2,7 +2,7 @@
     "name": "everlytic/api-wrapper",
     "description": "Everlytic API v2.0 wrapper for REST",
     "keywords": ["package", "everlytic", "api", "wrapper"],
-    "homepage": "http://everlytic.com",
+    "homepage": "http://www.everlytic.com",
     "license": "BSD-4-Clause",
     "authors": [
         {
