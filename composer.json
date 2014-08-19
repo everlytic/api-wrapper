@@ -1,0 +1,24 @@
+{
+    "name": "everlytic/api",
+    "description": "Everlytic API v2.0 wrapper for REST",
+    "keywords": ["package", "everlytic", "api", "wrapper"],
+    "homepage": "https://github.com/everlytic/composer-api-wrapper",
+    "type": "library",
+    "license": "BSD-4",
+    "authors": [
+        {
+            "name": "Everlytic",
+            "email": "support@everlytic.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "guzzle/guzzle": "3.9.*@dev"
+    },
+    "autoload": {
+        "psr-0": {
+            "Everlytic\\Api": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
