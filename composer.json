@@ -11,13 +11,19 @@
         }
     ],
     "require": {
-        "php": ">=5.4.0",
-        "guzzle/guzzle": "3.9.*@dev"
+        "php": ">=5.3.*",
+        "guzzle/guzzle": "3.*",
+        "guzzlehttp/guzzle": "4.*",
+        "fzaninotto/faker": "1.5.*@dev",
+        "mockery/mockery": "dev-master"
     },
     "autoload": {
         "psr-0": {
-            "Everlytic\\Api": "src/"
-        }
+            "Everlytic": "src/"
+        },
+        "classmap": [
+            "tests/ApiTester.php"
+        ]
     },
     "minimum-stability": "stable"
 }
