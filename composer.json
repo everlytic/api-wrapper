@@ -4,6 +4,7 @@
     "keywords": ["package", "everlytic", "api", "wrapper"],
     "homepage": "http://www.everlytic.com",
     "license": "BSD-4-Clause",
+    "version": "0.1.0-beta",
     "authors": [
         {
             "name": "Everlytic",
@@ -11,7 +12,6 @@
         }
     ],
     "require": {
-        "php": ">=5.3.*",
         "guzzle/guzzle": "3.*",
         "guzzlehttp/guzzle": "4.*",
         "fzaninotto/faker": "1.5.*@dev",
